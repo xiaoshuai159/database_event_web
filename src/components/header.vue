@@ -80,8 +80,8 @@ const handleCommand = (command: string) => {
 	position: relative;
 	box-sizing: border-box;
 	width: 100%;
-	height: 70px;
-	font-size: 22px;
+	height: 48px;
+	font-size: 19px;
 	color: #fff;
 }
 .collapse-btn {
@@ -95,8 +95,8 @@ const handleCommand = (command: string) => {
 }
 .header .logo {
 	float: left;
-	width: 250px;
-	line-height: 70px;
+	width: 210px;
+	line-height: 48px;
 }
 .header-right {
 	float: right;
@@ -104,7 +104,7 @@ const handleCommand = (command: string) => {
 }
 .header-user-con {
 	display: flex;
-	height: 70px;
+	height: 48px;
 	align-items: center;
 }
 .btn-fullscreen {

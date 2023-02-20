@@ -59,7 +59,7 @@ const items = [
     {
         icon: 'Odometer',
         index: '/dashboard',
-        title: '事件监测',
+        title: '数据安全监测',
         permiss: '1',
         subs:[
             {
@@ -67,26 +67,25 @@ const items = [
                 title: '事件统计',
                 permiss: '5',
             },
-        ]
-    },
-    {
-        icon: 'Warning',
-        index: '1',
-        title: '事件预警管理',
-        permiss: '2',
-        subs: [
             {
                 index: '/editor',
                 title: '事件预警',
-                permiss: '2',
             },
             {
                 index: '/table',
                 title: '事件汇总',
-                permiss: '2',
             },
-        ],
+        ]
     },
+    // {
+    //     icon: 'Warning',
+    //     index: '1',
+    //     title: '事件预警管理',
+    //     permiss: '2',
+    //     subs: [
+            
+    //     ],
+    // },
     // {
     //     icon: 'DocumentCopy',
     //     index: '/tabs',
@@ -167,7 +166,7 @@ const sidebar = useSidebarStore();
     display: block;
     position: absolute;
     left: 0;
-    top: 70px;
+    top: 48px;
     bottom: 0;
     overflow-y: scroll;
 }
@@ -175,7 +174,7 @@ const sidebar = useSidebarStore();
     width: 0;
 }
 .sidebar-el-menu:not(.el-menu--collapse) {
-    width: 250px;
+    width: 210px;
 }
 .sidebar > ul {
     height: 100%;

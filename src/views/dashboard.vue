@@ -1,23 +1,23 @@
 <template>
 	<div>
-		<el-card shadow="hover" style="padding:0px;margin-bottom:20px ;">
-		<el-row style="margin:0">
-			<el-col :span="20">
-				时间：<el-date-picker
-					v-model="value1"
-					type="datetimerange"
-					range-separator="To"
-					start-placeholder="Start date"
-					end-placeholder="End date"
-					
-					/>
-			</el-col>
-			<el-col :span="4">
-				<el-button type="primary" >查询</el-button>
-				<el-button type="primary" >重置</el-button>
-			</el-col>
-		</el-row>
-	</el-card>	
+		<div style="margin-bottom:10px;padding: 5px;" >
+			<div style="display: flex; justify-content: space-between;">
+				<div>
+					时间：<el-date-picker
+						v-model="value1"
+						type="datetimerange"
+						range-separator="To"
+						start-placeholder="Start date"
+						end-placeholder="End date"
+						
+						/>
+				</div>
+				<div>
+					<el-button type="primary" >查询</el-button>
+					<el-button type="primary" >重置</el-button>
+				</div>
+			</div>
+		</div>	
 	<el-row :gutter="10">
 		<el-col :span="4">
 			<el-card shadow="hover" :body-style="{ padding: '0px' }">
@@ -372,13 +372,13 @@ onMounted(()=>{
 
 <style scoped>
 .el-row {
-	margin-bottom: 20px;
+	margin-bottom: 10px;
 }
 
 .grid-content {
 	display: flex;
 	align-items: center;
-	height: 100px;
+	height: 80px;
 }
 
 .grid-cont-right {
@@ -389,14 +389,14 @@ onMounted(()=>{
 }
 
 .grid-num {
-	font-size: 30px;
+	font-size: 26px;
 	font-weight: bold;
 }
 
 .grid-con-icon {
 	font-size: 50px;
-	width: 100px;
-	height: 100px;
+	width: 80px;
+	height: 80px;
 	text-align: center;
 	line-height: 100px;
 	color: #fff;

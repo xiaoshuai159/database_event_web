@@ -186,7 +186,7 @@ const saveEdit = () => {
 }
 
 .handle-input {
-	width: 200px;
+	width: 210px;
 }
 .eventid-input {
 	width: 16%;
